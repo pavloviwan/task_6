@@ -10,10 +10,10 @@ import java.util.Scanner;
 
 public class Task6 {
     public static void main(String[] args) {
-        Scanner scaner = new Scanner (System.in);
-        int x = scaner.nextInt();
-        int y = scaner.nextInt();
-        int z = scaner.nextInt();
+        Scanner scanner = new Scanner (System.in);
+        int x = scanner.nextInt();
+        int y = scanner.nextInt();
+        int z = scanner.nextInt();
         int a = (x + y + z ) / 3 ;
         System.out.println(a);
 
